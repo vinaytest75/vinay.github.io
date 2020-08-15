@@ -1,6 +1,52 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .profile-image{
     height: 200px;
     width: 200px;
+    border: 5px solid #68b0ab;
 }
 
+.icon-color{
+    color: #68b0ab;
+    margin: 5px;
+}
 
+.btn-center{
+    margin:0% 46%;
+}
+
+.headings {
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.card-size{
+    height: 500px;
+    width: auto;
+}
+
+.card:hover {
+    -webkit-box-shadow: 10px 11px 14px -6px rgba(102, 95, 102, 0.78);
+    -moz-box-shadow: 10px 11px 14px -6px rgba(102, 95, 102, 0.78);
+    box-shadow: 10px 11px 14px -6px rgba(102, 95, 102, 0.78);
+}
+
+#project-container{
+    height: auto;
+    width: 100%;
+    background-color: #68b0ab;
+}
+
+#prof-container{
+    height: auto;
+    width: 100%;
+    background-color: #f3e6e3;
+}
+
+#img-card{
+    height: 200px;
+    width: 300px; 
+}

@@ -15,6 +15,7 @@ body{
 
 .btn-center{
     margin:0% 46%;
+    background-color: #68b0ab;
 }
 
 .headings {
@@ -23,9 +24,13 @@ body{
     padding: 5px;
 }
 
+.tech-stack-icon{
+    height: 200px;
+}
+
 .card-size{
     height: 500px;
-    width: auto;
+    width: 350px;
 }
 
 .card:hover {
@@ -37,13 +42,29 @@ body{
 #project-container{
     height: auto;
     width: 100%;
-    background-color: #68b0ab;
+    /* background-color: #68b0ab; */
 }
 
 #prof-container{
     height: auto;
     width: 100%;
-    background-color: #f3e6e3;
+    /* background-color: #f3e6e3; */
+}
+
+.rings-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rings{
+    border: 15px solid #68b0ab;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 15px;
+    text-align: center;
+    
 }
 
 #img-card{
